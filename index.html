@@ -1,0 +1,36 @@
+<!-- <body>
+    <textarea name="main" id="main" cols="30" rows="10"></textarea>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+    integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      try{ // on user land
+        document.getElementById('main').innerHTML = localStorage.getItem("textarea")
+      }catch(_){}
+      document.getElementById('main').addEventListener('input',_.debounce(()=>{
+        localStorage.setItem("textarea",document.getElementById('main').value)
+      },250)); // on change
+    </script>
+  </body> -->
+<!-- -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Камінь-ножиці-папір</title>
+</head>
+<body>
+    <h1>Гра "Камінь-ножиці-папір"</h1>
+    <div id="result"></div>
+    <button id="rock">Камінь</button>
+    <button id="paper">Папір</button>
+    <button id="scissors">Ножиці</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
